@@ -93,33 +93,16 @@
 
 // const accno = 5958900000;
 
-// Conditions----------------------------------------------------------------------------
+// Conditions
 
-// let Standard = 7;
+let Standard = 7;
 
-// if (Standard == 1) {
-//     console.log('Room One');
-// } else if (Standard == 2) {
-//     console.log('Rome Two');
-// } else if (Standard == 3) {
-//     console.log('Room Number 3');
-// } else {
-//     console.log('You are Principal');
-// }
-
-
-// array----------------------------------------------------------------------------------
-//  let name=["manis","kumar","gaurav","ravi","akash","sachin"];
-//  console.log(name);
-//  console.log(name[3]);
-
-// objects--------------------------------------------------------------------------------
-
-// let name={
-//     firstname:"manish",
-//     lastname:"kumar",
-//     usn:"1dt29is052",
-// }
-// console.log(name)
-// console.log(name.firstname)
-
+if (Standard == 1) {
+    console.log('Room One');
+} else if (Standard == 2) {
+    console.log('Rome Two');
+} else if (Standard == 3) {
+    console.log('Room Number 3');
+} else {
+    console.log('You are Principal');
+}

@@ -17,8 +17,3 @@
 //  ==> you the error "Missing initializer in const declaration "
 
 // ----------------------------------------
-let data ={
-    "a":"apple"
-    "b":"ball"
-}
-console.log(a);
