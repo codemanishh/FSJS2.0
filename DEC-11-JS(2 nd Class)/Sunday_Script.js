@@ -73,7 +73,7 @@
 
 // Date and Math------------------------------------------------------------------------------------------------
 
-const now = new Date();
+// const now = new Date();
 // console.log(now);
 // console.log(now.toString());
 // -> // 2023-01-05T13:29:20.296Z
@@ -89,26 +89,27 @@ const now = new Date();
 
 // console.log(now.getHours());
 // console.log(now.getMinutes());
-console.log(now.getSeconds());
+// console.log(now.getSeconds());
 
-// Math
+// Math------------------------------------------
 
-// const PI = Math;
+// const PI = Math.PI;
 // console.log(PI);
 
 // console.log(Math.round(PI));
+// console.log(Math.round(9.99));
 // console.log(Math.round(9.4));
 // console.log(Math.floor(9.5));
 // console.log(Math.ceil(9.5));
 
-// min and max
+// min and max --------------------------------------------
 
 // console.log(Math.min(10, 1, 2, 3, 5));
 // console.log(Math.max(10, 1, 2, 3, 5));
 
-// Random
+// Random------------------------------------------
 
-// console.log(Math.round(Math.random() * 51)); // 0 - 0.99999999999 (0-1)
+// console.log(Math.round(Math.random() * 51)); // 0 - 0.99999999 999 (0-1)
 
 //
 
@@ -116,9 +117,9 @@ console.log(now.getSeconds());
 
 // console.log(Math.log(2));
 
-// console.log(Math.sin(90));
+console.log(Math.sin(0));
 
-// Loops
+// Loops----------------------------------------------------------------
 // do while, while, for
 
 // let i = 6;

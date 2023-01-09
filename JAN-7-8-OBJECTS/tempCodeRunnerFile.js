@@ -1,0 +1,4 @@
+const object = {
+    rocket: '🚀',
+    home: '🏡'
+}

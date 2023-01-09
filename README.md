@@ -1,8 +1,5 @@
 # ineuron.ai-CODE_FILES
 Here I have submitted all the practice and the class codes which is given by the teachers
-
-TILL DATE 20-NOV-2022;
-
  <!-- 
         - HTML
         - CSS
@@ -23,5 +20,11 @@ TILL DATE 20-NOV-2022;
             - text
      -->
 
-WE HAVE COMPLETED TILL HERE 
+I HAVE COMPLETED TILL HERE 
+
+
+in JS i'm doing ..............
+
+<!-- Basics 
+js Objects -->
 
