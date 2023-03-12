@@ -119,8 +119,8 @@
 // console.log(maths);
 
 // reverse
-let maths = [1, 4, 9, 16, 25];
-console.log(maths.reverse());
+// let maths = [1, 4, 9, 16, 25];
+// console.log(maths.reverse());
 
 
 
@@ -128,7 +128,7 @@ console.log(maths.reverse());
 // Shift()   ///it takes the first item and remove it.
 // let maths = ['Anurag', 1, 4, 9, 16, 25];
 // console.log(maths.shift());
-
+// console.log(maths);
 
 
 // Sort      ///a,b,c,d ke form me arrange ho jeyaga 
@@ -143,15 +143,19 @@ console.log(maths.reverse());
 // fruit.unshift('Apple 1', 'Grapes 2');
 // console.log(fruit);
 
-
-
 // Converting to Array  ---------------------------------------------------------
 
 // let name = 'Anurag';
-// let array1 = name.split('');
+// let array1 = name.split('a');
 // console.log(array1);
+// console.log(typeof(array1));
 
 
+let fruit = ['Apple', 'Bada Apple', 'Chota Apple', 'Double Apple'];
+fruit.splice(2, 1, 'Kharab Apple', 'Acha Apple');
+console.log(fruit);
+
+// output: [ 25, 16, 9, 4, 1 ]
 
 
 
@@ -183,3 +187,7 @@ console.log(maths.reverse());
 // }
 
 // Array Method in JavaScript and Write a Blog on it => (compulsory)
+
+
+// https://codemanishh.hashnode.dev/array-methods-in-depth-js    
+// the article link 😀😀ARRAY SLICE

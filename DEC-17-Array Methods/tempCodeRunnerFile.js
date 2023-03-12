@@ -1,3 +1,2 @@
-let maths = [1, 4, 9, 16, 25];
-console.log(maths.reverse());
-
+let names = ['Hitesh Sir', 'Anurag', 'Surya', 'Anirudh', 'Bipul'];
+// console.log(names.reverse(names.sort()));
