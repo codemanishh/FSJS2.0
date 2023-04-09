@@ -8,10 +8,10 @@
 
 // let myHeros = ["thor", "spiderman"]
 // let dcHeros = ["batman", "black adam", "superman"]
-//🌟⭐🌟🌟bowser open karne pe you see the prototype option jo ke nhi hona chhahiye the if you write myHeros in the consol.
+//🌟⭐🌟🌟 browser open karne pe you see the prototype option jo ke nhi hona chhahiye the if you write myHeros in the consol.
 //to basically whats happens here is arrys are inheriting some properties form the objects and there properties are being injected by the prototype
 
-// 👿👿 class moto is -----> how we can add our costomise properties in these protoypes  😁😀😁😁😁
+// 👿👿 Today's class moto is -----> how we can add our costomise properties in these protoypes  😁😀😁😁😁
 
 
 
@@ -34,6 +34,14 @@
 
 // myHeros.hitesh()
 
+
+
+
+
+
+
+
+
 // //inheritance 
 
 // const User = {
@@ -55,8 +63,9 @@
 //     __proto__: TeachingSupport
 // }
 
-// Teacher.__proto__ = User   //old code syntex
+// Teacher.__proto__ = User   //old code syntex    now teacher is inheriting property of user so what ever property have user is inherited by TEACHER ALSO.
 // ---- now ---->>  Teacher.email  <<---also works 
+
 // //modern syntax below as u see
 // Object.setPrototypeOf(TeachingSupport, Teacher)
 // ..... now teachingsupport get some properties from teacher as well ....... 

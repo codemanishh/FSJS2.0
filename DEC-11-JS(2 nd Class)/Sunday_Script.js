@@ -95,10 +95,10 @@
 
 // const PI = Math.PI;
 // console.log(PI);
-
+ 
 // console.log(Math.round(PI));
 // console.log(Math.round(9.99));
-// console.log(Math.round(9.4));
+// console.log(Math.round(9.4)) ;
 // console.log(Math.floor(9.5));
 // console.log(Math.ceil(9.5));
 
@@ -117,7 +117,7 @@
 
 // console.log(Math.log(2));
 
-console.log(Math.sin(0));
+// console.log(Math.sin(0));
 
 // Loops----------------------------------------------------------------
 // do while, while, for

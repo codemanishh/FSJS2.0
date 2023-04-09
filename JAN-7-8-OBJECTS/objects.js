@@ -18,14 +18,24 @@
 // obj1.fuel = 200
 // obj1['year'] = 2000
 
+
+
+
+
+
 // // part 2
 
-// const obj2 = new Object() //constructor
+// const obj2 = new Object() //constructor based syntex of  above.Its the same
 // obj2.redbook = '📕'
-// // obj2.1bluebook = '📘'
+// obj2.1bluebook = '📘'   //////1bluebook naming is not good
 // obj2.myValue = '1 blue book'
 
 // // console.log(obj2);
+
+
+
+
+
 
 // // part 3
 // const powers = {

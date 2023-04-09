@@ -105,7 +105,7 @@
 //lastindexof
 
 // let num = [1, 2, 3, 'Anurag', 4, 5, 6, 7, 8, 'Anurag', 'Anurag'];
-// console.log(num.indexOf('Anurag'));
+// console.log(num.lastIndexOf('Anurag'));
 
 // Map  ------------------------   what ever we pass in the map that apply to all values of the array.   ----------------------------------
 // let maths = [1, 4, 9, 16, 25];
@@ -151,23 +151,23 @@
 // console.log(typeof(array1));
 
 
-let fruit = ['Apple', 'Bada Apple', 'Chota Apple', 'Double Apple'];
-fruit.splice(2, 1, 'Kharab Apple', 'Acha Apple');
-console.log(fruit);
+// let fruit = ['Apple', 'Bada Apple', 'Chota Apple', 'Double Apple'];
+// fruit.splice(2, 1, 'Kharab Apple', 'Acha Apple');
+// console.log(fruit);
 
 // output: [ 25, 16, 9, 4, 1 ]
 
 
 
 // for of   ---------------------------------------------------------
-// let fruit = ['Apple', 'Bada Apple', 'Chota Apple', 'Double Apple'];
-// let Upperfruit = []; // empty Array
+let fruit = ['Apple', 'Bada Apple', 'Chota Apple', 'Double Apple'];
+let Upperfruit = []; // empty Array
 
-// for (let mayur of fruit) {
-//     Upperfruit.push(mayur.toUpperCase());
-// }
+for (let i of fruit) {
+    Upperfruit.push(i.toUpperCase());
+}
 
-// console.log(Upperfruit);
+console.log(Upperfruit);
 
 
 

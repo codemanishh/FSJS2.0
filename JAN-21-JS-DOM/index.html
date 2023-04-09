@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM | JavaScript</title>
+</head>
+
+<body>
+    <h1>Hello World</h1>
+
+
+    <p class="fsjs">Full Stack JavaScript - Class</p>
+    <p id="fsjs2">Full Stack JavaScript - ID</p>
+
+
+    <ul>
+        <li>one</li>
+        <li>Two</li>
+    </ul>
+
+    <ul>
+        <li class="tech">JavaScript</li>
+        <li class="tech">Nodejs</li>
+        <li class="tech">Reactjs</li>
+    </ul>
+    <script>
+        console.log(document)
+        // console.log(window.document)
+        // console.log(document.documentElement)
+
+        // console.log(document.head)
+        // console.log(document.body)
+        // console.log(document.body.firstElementChild)
+        // let val = document.getElementById("fsjs2")
+        // console.log(val.innerText)
+        // console.log(val.innerHTML)
+
+
+
+
+
+
+        let val = document.getElementsByClassName("tech")
+        console.log(val)
+        console.log(val[0].innerText)
+        console.log(val[1].innerText)
+        val[1].innerHTML = "Anurag"
+        val[2].innerHTML = "<h1>Hello Hitesh Sir</h1>"
+        val[2].innerText = "<h1>Hello Hitesh Sir</h1>"
+
+        // - by tag name
+        //     - by tag
+
+
+
+
+
+
+        // Query Selector
+
+        // <p class="fsjs">Full Stack JavaScript - Class</p>
+        // <p id="fsjs2">Full Stack JavaScript - ID</p>
+        let h1 = document.querySelector(".fsjs").innerText
+        let h2 = document.querySelector("#fsjs2").innerText
+        console.log(h1)
+
+        // Skip // let value = (document.querySelector("p").style.backgroundColor = "red")
+
+    </script>
+
+</body>
+
+</html>

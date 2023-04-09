@@ -13,6 +13,16 @@
 // Array and method => Assignment to write article
 // for of  => Array and for in => Object
 
+
+
+
+
+
+
+
+
+
+
 // Topic: Function
 
 // function sum(value1, value2) {
@@ -38,7 +48,7 @@
 
 
 // Function with Return type
-// ----------------------------------------------------------------
+// -----------------------                                            -----------------------------------------
 // function sum(val1, val2) {
 //     let result = val1 + val2;
 //     return result;
@@ -86,7 +96,7 @@
 // importa 🌟🌟🌟🌟🌟🌟🌟🌟🌟
 
 // function nihal() {
-//     // arguments
+// ///// arguments ///////by default it will created to handel all the values
 //     // console.log(arguments);
 //     let sum = 0;
 //     for (let i = 0; i < arguments.length; i++) {
@@ -100,12 +110,16 @@
 
 
 
+// ALLOW FUNCTIONS ++>  ===>>>>>>>>> 
 
+// EXAMPLE 11
 // let jaimin = (var1, var2) => {
 //     console.log('Me Bhagwan hu', var1, var2);
 // };
 // jaimin(1, 2);
 
+
+// EXAMPLE 22
 // let manas = () => {
 //     console.log('Manas');
 // };
