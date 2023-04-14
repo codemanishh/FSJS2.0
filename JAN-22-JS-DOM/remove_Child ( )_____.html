@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>remove Child</title>
+</head>
+<body>
+    <h1>
+        this is code to remove Child
+    </h1>
+    <h3>click on button to remove a child</h3>
+    <button id="cls" onclick="function_remve()">click on me to remove a child</button>
+    <ul id="new">
+        <li>hai</li>
+        <li>manish</li>
+        <li>kumar</li>
+    </ul>
+    <script>
+        function function_remve(){
+            let rem=document.getElementById("new");
+            if(rem.hasChildNodes()){
+                rem.removeChild(rem.children[0]);
+            }
+        }
+    </script>
+</body>
+</html>
